@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+pinecone-client
+voyageai
+python-dotenv
+requests

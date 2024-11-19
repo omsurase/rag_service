@@ -1,0 +1,158 @@
+2024-11-18 01:49:33,296 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 01:49:33,297 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 01:49:33,297 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 01:49:33,357 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 01:49:33,357 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 01:50:12,188 - RAGEngine - INFO - Starting to process 2 documents
+2024-11-18 01:50:12,188 - RAGEngine - INFO - Processing document with ID: doc1
+2024-11-18 01:50:12,973 - RAGEngine - INFO - Document doc1 segmented into 0 chunks
+2024-11-18 01:50:12,973 - RAGEngine - INFO - Processing document with ID: doc2
+2024-11-18 01:50:13,584 - RAGEngine - INFO - Document doc2 segmented into 0 chunks
+2024-11-18 01:50:13,584 - RAGEngine - INFO - Generated total of 0 chunks across all documents
+2024-11-18 01:50:13,584 - RAGEngine - INFO - Generating embeddings for chunks
+2024-11-18 01:50:13,589 - RAGEngine - INFO - Generated 0 embeddings
+2024-11-18 01:50:13,589 - RAGEngine - INFO - Prepared 0 vectors for storage
+2024-11-18 01:50:13,589 - RAGEngine - INFO - Storing vectors in vector database
+2024-11-18 01:50:14,619 - RAGEngine - ERROR - Error processing documents: object NoneType can't be used in 'await' expression
+Traceback (most recent call last):
+  File "C:\Users\omsur\OneDrive\Documents\major project\rag_service\app\core\rag_engine.py", line 70, in process_documents
+    await self.vector_store.upsert(vectors)
+TypeError: object NoneType can't be used in 'await' expression
+2024-11-18 16:04:54,952 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:04:54,955 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:04:55,000 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:04:55,002 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:04:57,161 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:04:57,164 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:04:57,203 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:04:57,203 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:07:17,897 - RAGEngine - INFO - Starting to process 2 documents
+2024-11-18 16:07:17,903 - RAGEngine - INFO - Processing document with ID: doc1
+2024-11-18 16:07:19,143 - RAGEngine - INFO - Document doc1 segmented into 0 chunks
+2024-11-18 16:07:19,144 - RAGEngine - INFO - Processing document with ID: doc2
+2024-11-18 16:07:19,871 - RAGEngine - INFO - Document doc2 segmented into 0 chunks
+2024-11-18 16:07:19,871 - RAGEngine - INFO - Generated total of 0 chunks across all documents
+2024-11-18 16:07:19,871 - RAGEngine - INFO - Generating embeddings for chunks
+2024-11-18 16:07:19,871 - RAGEngine - INFO - Generated 0 embeddings
+2024-11-18 16:07:19,871 - RAGEngine - INFO - Prepared 0 vectors for storage
+2024-11-18 16:07:19,871 - RAGEngine - INFO - Storing vectors in vector database
+2024-11-18 16:07:20,867 - RAGEngine - ERROR - Error processing documents: object NoneType can't be used in 'await' expression
+Traceback (most recent call last):
+  File "C:\Users\omsur\OneDrive\Documents\major project\rag_service\app\core\rag_engine.py", line 70, in process_documents
+    await self.vector_store.upsert(vectors)
+TypeError: object NoneType can't be used in 'await' expression
+2024-11-18 16:10:48,596 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:10:48,596 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:10:48,673 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:10:48,682 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:10:50,676 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:10:50,681 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:10:50,732 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:10:50,732 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:13:52,638 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:13:52,643 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:13:52,682 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:13:52,684 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:14:25,891 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:14:25,891 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:14:25,931 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:14:25,931 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:14:44,321 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:14:44,329 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:14:44,361 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:14:44,361 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:14:44,754 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 16:14:44,754 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 16:14:44,794 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 16:14:44,794 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 16:14:58,097 - RAGEngine - INFO - Starting to process 2 documents
+2024-11-18 16:14:58,097 - RAGEngine - INFO - Processing document with ID: doc1
+2024-11-18 16:14:59,081 - RAGEngine - INFO - Document doc1 segmented into 0 chunks
+2024-11-18 16:14:59,081 - RAGEngine - INFO - Processing document with ID: doc2
+2024-11-18 16:14:59,696 - RAGEngine - INFO - Document doc2 segmented into 0 chunks
+2024-11-18 16:14:59,696 - RAGEngine - INFO - Generated total of 0 chunks across all documents
+2024-11-18 16:14:59,696 - RAGEngine - INFO - Generating embeddings for chunks
+2024-11-18 16:14:59,696 - RAGEngine - INFO - Generated 0 embeddings
+2024-11-18 16:14:59,696 - RAGEngine - INFO - Prepared 0 vectors for storage
+2024-11-18 16:14:59,700 - RAGEngine - INFO - Storing vectors in vector database
+2024-11-18 16:15:01,129 - RAGEngine - INFO - Successfully stored all vectors
+2024-11-18 21:50:51,175 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:50:51,177 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:50:51,227 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:50:51,227 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:51:24,330 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:51:24,330 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:51:24,387 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:51:24,387 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:51:25,012 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:51:25,012 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:51:25,053 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:51:25,053 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:51:31,708 - RAGEngine - INFO - Starting to process 2 documents
+2024-11-18 21:51:31,708 - RAGEngine - INFO - Processing document with ID: doc1
+2024-11-18 21:51:32,615 - RAGEngine - INFO - Document doc1 segmented into 0 chunks
+2024-11-18 21:51:32,615 - RAGEngine - INFO - Processing document with ID: doc2
+2024-11-18 21:51:33,195 - RAGEngine - INFO - Document doc2 segmented into 0 chunks
+2024-11-18 21:51:33,195 - RAGEngine - INFO - Generated total of 0 chunks across all documents
+2024-11-18 21:51:33,195 - RAGEngine - INFO - Generating embeddings for chunks
+2024-11-18 21:51:33,201 - RAGEngine - INFO - Generated 0 embeddings
+2024-11-18 21:51:33,201 - RAGEngine - INFO - Prepared 0 vectors for storage
+2024-11-18 21:51:33,201 - RAGEngine - INFO - Storing vectors in vector database
+2024-11-18 21:51:34,508 - RAGEngine - INFO - Successfully stored all vectors
+2024-11-18 21:53:33,971 - RAGEngine - INFO - Starting to process 2 documents
+2024-11-18 21:53:33,973 - RAGEngine - INFO - Processing document with ID: doc1
+2024-11-18 21:53:35,240 - RAGEngine - INFO - Document doc1 segmented into 0 chunks
+2024-11-18 21:53:35,240 - RAGEngine - INFO - Processing document with ID: doc2
+2024-11-18 21:53:36,469 - RAGEngine - INFO - Document doc2 segmented into 0 chunks
+2024-11-18 21:53:36,469 - RAGEngine - INFO - Generated total of 0 chunks across all documents
+2024-11-18 21:53:36,469 - RAGEngine - INFO - Generating embeddings for chunks
+2024-11-18 21:53:36,469 - RAGEngine - INFO - Generated 0 embeddings
+2024-11-18 21:53:36,469 - RAGEngine - INFO - Prepared 0 vectors for storage
+2024-11-18 21:53:36,469 - RAGEngine - INFO - Storing vectors in vector database
+2024-11-18 21:53:36,469 - RAGEngine - INFO - Successfully stored all vectors
+2024-11-18 21:54:43,917 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:54:43,919 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:54:43,958 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:54:43,965 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:54:45,949 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:54:45,949 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:54:45,989 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:54:45,989 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:54:53,717 - RAGEngine - INFO - Starting to process 2 documents
+2024-11-18 21:54:53,717 - RAGEngine - INFO - Processing document with ID: doc1
+2024-11-18 21:54:55,319 - RAGEngine - INFO - Document doc1 segmented into 0 chunks
+2024-11-18 21:54:55,321 - RAGEngine - INFO - Processing document with ID: doc2
+2024-11-18 21:54:56,554 - RAGEngine - INFO - Document doc2 segmented into 0 chunks
+2024-11-18 21:54:56,554 - RAGEngine - INFO - Generated total of 0 chunks across all documents
+2024-11-18 21:54:56,554 - RAGEngine - INFO - Generating embeddings for chunks
+2024-11-18 21:54:56,554 - RAGEngine - INFO - Generated 0 embeddings
+2024-11-18 21:54:56,554 - RAGEngine - INFO - Prepared 0 vectors for storage
+2024-11-18 21:54:56,554 - RAGEngine - INFO - Storing vectors in vector database
+2024-11-18 21:54:57,617 - RAGEngine - INFO - Successfully stored all vectors
+2024-11-18 21:57:39,003 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:57:39,003 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:57:39,038 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:57:39,038 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:58:06,384 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:58:06,387 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:58:06,421 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:58:06,421 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:58:13,525 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:58:13,525 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:58:13,562 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:58:13,562 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:58:15,365 - pinecone_plugin_interface.logging - INFO - Discovering subpackages in _NamespacePath(['C:\\Users\\omsur\\OneDrive\\Documents\\major project\\mp\\Lib\\site-packages\\pinecone_plugins'])
+2024-11-18 21:58:15,365 - pinecone_plugin_interface.logging - INFO - Looking for plugins in pinecone_plugins.inference
+2024-11-18 21:58:15,397 - pinecone_plugin_interface.logging - INFO - Installing plugin inference into Pinecone
+2024-11-18 21:58:15,397 - RAGEngine - INFO - RAGEngine initialized with embedding generator and vector store
+2024-11-18 21:58:30,077 - RAGEngine - INFO - Starting to process 2 documents
+2024-11-18 21:58:30,077 - RAGEngine - INFO - Processing document with ID: doc1
+2024-11-18 21:58:36,912 - RAGEngine - INFO - Document doc1 segmented into 0 chunks
+2024-11-18 21:58:36,912 - RAGEngine - INFO - Processing document with ID: doc2
+2024-11-18 21:58:40,614 - RAGEngine - INFO - Document doc2 segmented into 0 chunks
+2024-11-18 21:58:40,615 - RAGEngine - INFO - Generated total of 0 chunks across all documents
+2024-11-18 21:58:40,615 - RAGEngine - INFO - Generating embeddings for chunks
+2024-11-18 21:58:40,615 - RAGEngine - INFO - Generated 0 embeddings
+2024-11-18 21:58:40,615 - RAGEngine - INFO - Prepared 0 vectors for storage
+2024-11-18 21:58:40,615 - RAGEngine - INFO - Storing vectors in vector database
+2024-11-18 21:58:41,721 - RAGEngine - INFO - Successfully stored all vectors
