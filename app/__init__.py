@@ -1,6 +1,11 @@
+# app/__init__.py
 from fastapi import FastAPI
 from app.api.routes import router
 from app.config import settings
+from app.logging_config import configure_logging
+
+# Configure logging as early as possible
+configure_logging()
 
 def create_app() -> FastAPI:
     """Create and configure the FastAPI application"""
@@ -21,6 +26,10 @@ def create_app() -> FastAPI:
 
     @app.get("/health")
     async def health_check():
+        # Use logging instead of print
+        import logging
+        logger = logging.getLogger(__name__)
+        logger.info("Health check endpoint accessed")
         return {
             "status": "healthy",
             "app_name": settings.APP_NAME,
